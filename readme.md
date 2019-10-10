@@ -35,4 +35,4 @@ Put test image in the __example_imgs__ folder. Then run:
 python test.py your_test_image_name.jpg
 ```
 ## Extra
-:blush:
+:eyes:
