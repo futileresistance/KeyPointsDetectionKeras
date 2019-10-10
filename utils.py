@@ -32,7 +32,9 @@ def make_pred(model, batch_number, img_idx, loader=False, test_im='example_imgs/
         y_scale = imWidth / x_h
         resized_img = cv2.resize(img_, (0, 0), fx=x_scale, fy=y_scale, interpolation=cv2.INTER_CUBIC)
         test_img = np.expand_dims(resized_img, axis=0)
+        print('prediction...')
         pred = model.predict(test_img)
+        print('done')
         pred_heatmaps = [pred[0][:, :, i] for i in range(4)]
         fig, axes = plt.subplots(1, 4, figsize=(20, 10))
         for i in range(len(pred_heatmaps)):

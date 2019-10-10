@@ -21,7 +21,7 @@ img_input_shape = (imWidth, imHeight, 3)
 base_lr = 4e-4
 max_iter = 50
 logs_dir = "./logs"
-weights_best_file = "thin_model_weights0810.best.h5"
+weights_best_file = "models/weights/thin_model_weights0810.best.h5"
 training_log = "thin_model_weights.csv"
 
 # pretrained models
