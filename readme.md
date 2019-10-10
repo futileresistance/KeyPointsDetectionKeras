@@ -1,15 +1,19 @@
 # Real-time human anatomical points localizer
 Based on [this](https://github.com/michalfaber/keras_Realtime_Multi-Person_Pose_Estimation) repo and [this](https://arxiv.org/abs/1611.08050) paper.
 ## Network architecture
-![alt text](https://github.com/futileresistance/repo/readme/pose_estim_arch.png)
+<p align="center">
+<img src="https://github.com/futileresistance/KeyPointsDetectionKeras/blob/master/readme/pose_estim_arch.png", width="720">
+</p>
+
 ## Results
 <p align="center">
 <img src="https://github.com/futileresistance/KeyPointsDetectionKeras/blob/master/readme/result.png", width="720">
 </p>
+
 ## Requirements
 - keras
-- cocotools
-- cv2
+- pycocotools
+- opencv-python
 - albumentations
 - numpy
 - matplotlib
